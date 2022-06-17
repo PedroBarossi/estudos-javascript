@@ -37,3 +37,24 @@ function calculaIdade(anos) {
     } anos de idade.`;
 }
 ```
+
+### Admins
+- Criar uma função que receba um Map
+- Criar um Map e populá-lo com nomes de usuários e sua função no sistema
+- Dentro da função, utilizar o loop ``for...of`` para retornar uma lista de nomes dos usuários que são administradores
+
+### Únicos
+Transformar o array dado em outro array de valores únicos utilizando um Set
+
+Array dado:
+```javascript
+const meuArray = [30, 30, 40, 5 , 223, 2049, 3034, 5];
+```
+
+### Map, Filter e Reduce
+1. Pratique a sintaxe de multiplicação com Map uma vez utilizando o parâmetro this e uma vez sem ele
+2. Filtre e retorne todos os números pares de um array
+3. Some todos os números de um array utilizando Reduce
+4. Crie uma função que:
+   - receba uma lista de preços e um número representando o saldo disponível
+   - calcule qual será o saldo final após subtrair todos os preços da lista enviada
