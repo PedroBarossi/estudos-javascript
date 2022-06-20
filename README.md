@@ -58,3 +58,13 @@ const meuArray = [30, 30, 40, 5 , 223, 2049, 3034, 5];
 4. Crie uma função que:
    - receba uma lista de preços e um número representando o saldo disponível
    - calcule qual será o saldo final após subtrair todos os preços da lista enviada
+
+### Validação de Erro
+- Crie uma função que receba um array e um número
+- Realize as seguintes validações:
+  -  os parâmetros não forem enviados, lance um erro do tipo ``ReferenceError``
+  - Se o array não for do tipo object, lance um erro do tipo ``TypeError``
+  - Se o número não for do tipo number, lance um erro do tipo ``Type Error``
+  - Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo ``RangeError``
+- Utilize a declaração ``try...catch``
+- Filtre as chamadas de catch por cada tipo de erro utilizando o operador ``instanceof``
