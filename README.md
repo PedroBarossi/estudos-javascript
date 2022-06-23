@@ -68,3 +68,18 @@ const meuArray = [30, 30, 40, 5 , 223, 2049, 3034, 5];
   - Se o tamanho do array for diferente do número enviado como parâmetro, lance um erro do tipo ``RangeError``
 - Utilize a declaração ``try...catch``
 - Filtre as chamadas de catch por cada tipo de erro utilizando o operador ``instanceof``
+
+### catAPI
+- Utilizar a API https://thatcopy.pw/catapi/rest para fazer as chamadas com o método ``fetch()``;
+- Criar a imagem e ativar o evento de clique do botão através da manipulação do DOM
+
+### Conta Bancária
+- Crie a classe ContaBancaria, que possui os parâmetros ``agencia``, ``numero``, ``tipo`` e ``saldo``;
+- Dentro de ContaBancaria, construa o ``getter`` e o ``setter`` de saldo;
+- Dentro de ContaBancaria, crie os métodos ``sacar`` e ``depositar``;
+- Crie uma classe-filha chamada ContaCorrente que herda todos esses parâmetros e ainda possua o parâmetro ``cartaoCredito``;
+- Ainda em ContaCorrente, construa o ``getter`` e o ``setter`` de cartaoCredito;
+- Ainda em ContaCorrente, faça com que o tipo seja 'conta corrente' por padrão;
+- Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
+- Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
+- Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
