@@ -83,3 +83,9 @@ const meuArray = [30, 30, 40, 5 , 223, 2049, 3034, 5];
 - Crie uma classe-filha chamada ContaPoupanca que herda todos os parâmetros de ContaBancaria;
 - Crie uma classe-filha chamada ContaUniversitaria que herda todos os parâmetros de ContaBancaria;
 - Faça com que o método saque de ContaUniversitaria apenas seja capaz de sacar valores menores que 500 reais.
+
+### Módulos
+- Testar no navegador o [código](https://github.com/PedroBarossi/estudos-javascript/modulos) desenvolvido na aula de 
+
+### Dark Mode / Light Mode
+A partir de uma estrutura básica de página web, criar um botão que ative/desative o Dark Mode
