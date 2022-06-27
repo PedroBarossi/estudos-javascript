@@ -1,0 +1,22 @@
+{
+  "name": "estudos-javascript",
+  "version": "1.0.0",
+  "description": "Este repositório guarda conteúdo apresentado em aulas básico-intermediárias de JavaScript e algumas atividades desenvolvidas com sua ajuda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroBarossi/estudos-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroBarossi/estudos-javascript/issues"
+  },
+  "homepage": "https://github.com/PedroBarossi/estudos-javascript#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
